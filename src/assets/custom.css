@@ -1,0 +1,29 @@
+.button {
+    background-color: #b2ebf2;
+    border: none;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+.button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 370px;
+    margin: 50px auto;
+}
+
+@media(min-width: 1024px) {
+    .main-block {
+        min-height: 80vh;
+        margin: 0 auto;
+    }
+}
